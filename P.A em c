@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, n, r, termo;
+
+    printf("informe o valor de inicial:");
+    scanf("%d",&a);
+    
+    printf("informe o valor da posicao da P.A:");
+    scanf("%d",&n);
+    
+    printf("agora informe a razao da P.A:");
+    scanf("%d",&r);
+    
+    termo = a + (n - 1) * r;
+    
+    printf("o valor da P.A do numero %d na posicao %d é %d", a, n, termo);
+    
+    return 0;
+}
