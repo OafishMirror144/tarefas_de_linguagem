@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int inicial, final, razao;
+    
+    printf("informe o valor inicial:");
+    scanf("%d",&inicial);
+    
+    printf("informe a razao da P.G:");
+    scanf("%d",&razao);
+    
+    final = inicial * razao ^ (final - 1);
+    
+    printf("o valor da P.G é: %d",final);
+    
+    return 0;
+}
